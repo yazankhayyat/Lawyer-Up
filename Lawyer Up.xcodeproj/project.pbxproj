@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACBBF1771B766D4800A7B813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBBF1761B766D4800A7B813 /* main.m */; };
+		ACBBF17F1B766D6900A7B813 /* Lawyer.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBBF17E1B766D6900A7B813 /* Lawyer.m */; };
+		ACBBF1821B766D8300A7B813 /* Practice.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBBF1811B766D8300A7B813 /* Practice.m */; };
+		ACBBF1851B767C8D00A7B813 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBBF1841B767C8D00A7B813 /* Client.m */; };
+		ACBBF18A1B76970A00A7B813 /* Associate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBBF1891B76970A00A7B813 /* Associate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ACBBF1711B766D4800A7B813 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ACBBF1731B766D4800A7B813 /* Lawyer Up */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lawyer Up"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBBF1761B766D4800A7B813 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACBBF17D1B766D6900A7B813 /* Lawyer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lawyer.h; sourceTree = "<group>"; };
+		ACBBF17E1B766D6900A7B813 /* Lawyer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lawyer.m; sourceTree = "<group>"; };
+		ACBBF1801B766D8300A7B813 /* Practice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Practice.h; sourceTree = "<group>"; };
+		ACBBF1811B766D8300A7B813 /* Practice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Practice.m; sourceTree = "<group>"; };
+		ACBBF1831B767C8D00A7B813 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		ACBBF1841B767C8D00A7B813 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		ACBBF1861B767E0A00A7B813 /* Associate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Associate.h; sourceTree = "<group>"; };
+		ACBBF1891B76970A00A7B813 /* Associate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Associate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACBBF1701B766D4800A7B813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACBBF16A1B766D4800A7B813 = {
+			isa = PBXGroup;
+			children = (
+				ACBBF1751B766D4800A7B813 /* Lawyer Up */,
+				ACBBF1741B766D4800A7B813 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACBBF1741B766D4800A7B813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACBBF1731B766D4800A7B813 /* Lawyer Up */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACBBF1751B766D4800A7B813 /* Lawyer Up */ = {
+			isa = PBXGroup;
+			children = (
+				ACBBF1761B766D4800A7B813 /* main.m */,
+				ACBBF17D1B766D6900A7B813 /* Lawyer.h */,
+				ACBBF17E1B766D6900A7B813 /* Lawyer.m */,
+				ACBBF1831B767C8D00A7B813 /* Client.h */,
+				ACBBF1841B767C8D00A7B813 /* Client.m */,
+				ACBBF1861B767E0A00A7B813 /* Associate.h */,
+				ACBBF1891B76970A00A7B813 /* Associate.m */,
+				ACBBF1801B766D8300A7B813 /* Practice.h */,
+				ACBBF1811B766D8300A7B813 /* Practice.m */,
+			);
+			path = "Lawyer Up";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACBBF1721B766D4800A7B813 /* Lawyer Up */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACBBF17A1B766D4800A7B813 /* Build configuration list for PBXNativeTarget "Lawyer Up" */;
+			buildPhases = (
+				ACBBF16F1B766D4800A7B813 /* Sources */,
+				ACBBF1701B766D4800A7B813 /* Frameworks */,
+				ACBBF1711B766D4800A7B813 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lawyer Up";
+			productName = "Lawyer Up";
+			productReference = ACBBF1731B766D4800A7B813 /* Lawyer Up */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACBBF16B1B766D4800A7B813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Yazan;
+				TargetAttributes = {
+					ACBBF1721B766D4800A7B813 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = ACBBF16E1B766D4800A7B813 /* Build configuration list for PBXProject "Lawyer Up" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACBBF16A1B766D4800A7B813;
+			productRefGroup = ACBBF1741B766D4800A7B813 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACBBF1721B766D4800A7B813 /* Lawyer Up */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACBBF16F1B766D4800A7B813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBBF1821B766D8300A7B813 /* Practice.m in Sources */,
+				ACBBF1771B766D4800A7B813 /* main.m in Sources */,
+				ACBBF1851B767C8D00A7B813 /* Client.m in Sources */,
+				ACBBF18A1B76970A00A7B813 /* Associate.m in Sources */,
+				ACBBF17F1B766D6900A7B813 /* Lawyer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ACBBF1781B766D4800A7B813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ACBBF1791B766D4800A7B813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ACBBF17B1B766D4800A7B813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACBBF17C1B766D4800A7B813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACBBF16E1B766D4800A7B813 /* Build configuration list for PBXProject "Lawyer Up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBBF1781B766D4800A7B813 /* Debug */,
+				ACBBF1791B766D4800A7B813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACBBF17A1B766D4800A7B813 /* Build configuration list for PBXNativeTarget "Lawyer Up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBBF17B1B766D4800A7B813 /* Debug */,
+				ACBBF17C1B766D4800A7B813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACBBF16B1B766D4800A7B813 /* Project object */;
+}
